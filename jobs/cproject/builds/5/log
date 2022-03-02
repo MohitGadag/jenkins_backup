@@ -1,0 +1,71 @@
+Started by user [8mha:////4Khv+PJLBdxwQiE9qNEwdgCrw8zRrBA06G1BQR5bUa2OAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYe/dLi1CL93PyMzJIyAL1wFMXBAAAA[0mMohitV
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/cproject
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/cproject/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/MohitGadag/cproject.git # timeout=10
+Fetching upstream changes from https://github.com/MohitGadag/cproject.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.27.0'
+ > git fetch --tags --force --progress -- https://github.com/MohitGadag/cproject.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision 76247bf4e45a486215679633927eb3ef85a2d69e (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 76247bf4e45a486215679633927eb3ef85a2d69e # timeout=10
+Commit message: "added files"
+ > git rev-list --no-walk 76247bf4e45a486215679633927eb3ef85a2d69e # timeout=10
+[cproject] $ /bin/sh -xe /tmp/jenkins17423730417302172556.sh
++ cd /var/lib/jenkins/workspace/cproject
++ rm -rf big2.o fact.o fibo.o main.o pali.o rev.o sort.o ABC.exe
++ make
+gcc -c main.c
+main.c:2:1: warning: return type defaults to ‘int’ [-Wimplicit-int]
+ main() {
+ ^~~~
+main.c: In function ‘main’:
+main.c:4:10: warning: implicit declaration of function ‘biggest’ [-Wimplicit-function-declaration]
+          biggest();
+          ^~~~~~~
+main.c:5:10: warning: implicit declaration of function ‘factorial’ [-Wimplicit-function-declaration]
+          factorial();
+          ^~~~~~~~~
+main.c:6:9: warning: implicit declaration of function ‘reverse’ [-Wimplicit-function-declaration]
+         reverse();
+         ^~~~~~~
+main.c:7:10: warning: implicit declaration of function ‘sort’ [-Wimplicit-function-declaration]
+          sort();
+          ^~~~
+main.c:8:3: warning: implicit declaration of function ‘fibo’ [-Wimplicit-function-declaration]
+   fibo();
+   ^~~~
+main.c:9:3: warning: implicit declaration of function ‘pali’ [-Wimplicit-function-declaration]
+   pali();
+   ^~~~
+gcc -c big2.c
+big2.c:2:1: warning: return type defaults to ‘int’ [-Wimplicit-int]
+ biggest()
+ ^~~~~~~
+gcc -c fact.c
+fact.c:2:2: warning: return type defaults to ‘int’ [-Wimplicit-int]
+  factorial() {
+  ^~~~~~~~~
+gcc -c rev.c
+rev.c:2:1: warning: return type defaults to ‘int’ [-Wimplicit-int]
+ reverse()
+ ^~~~~~~
+gcc -c sort.c
+sort.c:3:1: warning: return type defaults to ‘int’ [-Wimplicit-int]
+ sort()
+ ^~~~
+gcc -c fibo.c
+fibo.c:3:1: warning: return type defaults to ‘int’ [-Wimplicit-int]
+ fibo() {
+ ^~~~
+gcc -c pali.c
+pali.c:2:1: warning: return type defaults to ‘int’ [-Wimplicit-int]
+ pali()
+ ^~~~
+gcc -o ABC.exe main.o big2.o fact.o rev.o sort.o fibo.o pali.o
+Finished: SUCCESS

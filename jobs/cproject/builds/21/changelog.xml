@@ -1,0 +1,9 @@
+commit 480e4904abc15bad50789ecb6472da5e04ee456c
+tree 7ca532f0fa5a59cbe3cdba5d1e6e540c7c51964b
+parent a3f952ed6e8a2582f4434a8fbf39e3920ac18a0b
+author MohitGadag <100118335+MohitGadag@users.noreply.github.com> 2022-02-28 16:30:40 +0530
+committer GitHub <noreply@github.com> 2022-02-28 16:30:40 +0530
+
+    Delete test1
+
+:100644 000000 9daeafb9864cf43055ae93beb0afd6c7d144bfa4 0000000000000000000000000000000000000000 D	test1

@@ -1,0 +1,23 @@
+Started by user [8mha:////4Khv+PJLBdxwQiE9qNEwdgCrw8zRrBA06G1BQR5bUa2OAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYe/dLi1CL93PyMzJIyAL1wFMXBAAAA[0mMohitV
+Running as SYSTEM
+Building remotely on [8mha:////4IX9dmYH33iH926daa3AfJBBB5nSZWo9A8oB0fWHfwHxAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZB/eT83ILSktQi/ayU1IKc/EoAOyK0RsYAAAA=[0mjdeploy in workspace /home/ubuntu/workspace/cproject
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /home/ubuntu/workspace/cproject/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/MohitGadag/cproject.git # timeout=10
+Fetching upstream changes from https://github.com/MohitGadag/cproject.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.25.1'
+ > git fetch --tags --force --progress -- https://github.com/MohitGadag/cproject.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision 5607546e07c6e31b4abcd3eed25cbc5b9d1ff42a (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 5607546e07c6e31b4abcd3eed25cbc5b9d1ff42a # timeout=10
+Commit message: "Delete test"
+ > git rev-list --no-walk 5607546e07c6e31b4abcd3eed25cbc5b9d1ff42a # timeout=10
+[cproject] $ /bin/sh -xe /tmp/jenkins2858587715774554642.sh
++ cd /workspace/cproject
+/tmp/jenkins2858587715774554642.sh: 2: cd: can't cd to /workspace/cproject
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

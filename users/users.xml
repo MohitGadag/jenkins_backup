@@ -1,0 +1,18 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<hudson.model.UserIdMapper>
+  <version>1</version>
+  <idToDirectoryNameMap class="concurrent-hash-map">
+    <entry>
+      <string>mohit.v.b92</string>
+      <string>Mohitvb92_15034787132650409068</string>
+    </entry>
+    <entry>
+      <string>noreply</string>
+      <string>noreply_16903617385492206213</string>
+    </entry>
+    <entry>
+      <string>mohitv</string>
+      <string>MohitV_1055110843016544137</string>
+    </entry>
+  </idToDirectoryNameMap>
+</hudson.model.UserIdMapper>

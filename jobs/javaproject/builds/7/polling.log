@@ -1,0 +1,13 @@
+Started on Feb 28, 2022, 2:11:16 PM
+Started by event from 140.82.115.150 ⇒ http://54.146.181.87:8080//github-webhook/ on Mon Feb 28 14:11:16 UTC 2022
+Using strategy: Default
+[poll] Last Built Revision: Revision 5221ce3a61b658dac34fc575c1e928c140ad7253 (refs/remotes/origin/main)
+The recommended git tool is: NONE
+No credentials specified
+ > git --version # timeout=10
+ > git --version # 'git version 2.27.0'
+ > git ls-remote -h -- https://github.com/MohitGadag/javaproject.git # timeout=10
+Found 1 remote heads on https://github.com/MohitGadag/javaproject.git
+[poll] Latest remote head revision on refs/heads/main is: 6e32b2589b55363c0f73c80337245a865507f8b6
+Done. Took 92 ms
+Changes found

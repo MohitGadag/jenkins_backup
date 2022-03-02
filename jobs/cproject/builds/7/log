@@ -1,0 +1,26 @@
+Started by user [8mha:////4Khv+PJLBdxwQiE9qNEwdgCrw8zRrBA06G1BQR5bUa2OAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYe/dLi1CL93PyMzJIyAL1wFMXBAAAA[0mMohitV
+Running as SYSTEM
+Building remotely on [8mha:////4MmG2Ff6J7EAc1RHKDTLWdZ2Z7A26q0QbDxUQs8n4JitAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYB/eT83ILSktQi/eTinMSyVACnTez1xQAAAA==[0mcslave in workspace /home/jenkins/workspace/cproject
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/MohitGadag/cproject.git
+ > git init /home/jenkins/workspace/cproject # timeout=10
+Fetching upstream changes from https://github.com/MohitGadag/cproject.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.25.1'
+ > git fetch --tags --force --progress -- https://github.com/MohitGadag/cproject.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/MohitGadag/cproject.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision 76247bf4e45a486215679633927eb3ef85a2d69e (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 76247bf4e45a486215679633927eb3ef85a2d69e # timeout=10
+Commit message: "added files"
+ > git rev-list --no-walk 76247bf4e45a486215679633927eb3ef85a2d69e # timeout=10
+[cproject] $ /bin/sh -xe /tmp/jenkins9364795672439242493.sh
++ cd /var/lib/jenkins/workspace/cproject
+/tmp/jenkins9364795672439242493.sh: 2: cd: can't cd to /var/lib/jenkins/workspace/cproject
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE
